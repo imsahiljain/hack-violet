@@ -10,7 +10,7 @@ export default function Hero() {
         pt={{ base: "150", md: "4xl", lg: "20" }}
       >
         <Flex pb="8" flex="1" align="center" justify="center">
-          <Stack spacing="6" w="full" maxW="2xl" mb="20">
+          <Stack spacing="6" w="full" maxW="2xl" mb="20" ml="14">
             <Heading
               fontSize={{ base: "3xl", md: "4xl", lg: "8xl" }}
               fontFamily="FUNGIS-Heavy"
@@ -45,7 +45,7 @@ export default function Hero() {
         <Flex>
           <Image
             height="100vh"
-            width="900px"
+            width="950px"
             alt={"Hero image"}
             src="/images/hero.svg"
             draggable="false"
