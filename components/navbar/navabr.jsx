@@ -3,12 +3,13 @@ import { Flex, Spacer, Box, Heading, Button, Link } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <>
-      <Flex zIndex="100" boxShadow="xs" pos="absolute" w="100%" flexWrap="wrap">
+      <Flex zIndex="100" pos="absolute" w="100%" flexWrap="wrap">
         <Box p="2" m="3">
           <Heading
             className="newsHeading"
             fontFamily="Ageo-Heavy"
             fontSize="3xl"
+            ml="5"
           >
             Heading
           </Heading>
@@ -73,7 +74,7 @@ const Navbar = () => {
           </Link>
 
           <Button
-            colorScheme="pink"
+            colorScheme="blue"
             p="5"
             variant="solid"
             mr="30"
