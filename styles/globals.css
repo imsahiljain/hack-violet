@@ -1,5 +1,5 @@
 ::selection {
-  background: #94e2ff;
+  background: #c4efff;
 }
 
 @font-face {
@@ -24,7 +24,7 @@
   src: url("../public/fonts/ageo/AgeoPersonalUse-Light.otf") format("opentype");
 }
 @font-face {
-  font-family: Ageo-Meidum;
+  font-family: Ageo-Medium;
   src: url("../public/fonts/ageo/AgeoPersonalUse-Medium.otf") format("opentype");
 }
 @font-face {
