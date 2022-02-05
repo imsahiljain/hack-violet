@@ -3,6 +3,10 @@
 }
 
 @font-face {
+  font-family: FUNGIS-Heavy;
+  src: url("../public/fonts/fungis/FUNGIS-Heavy.otf") format("opentype");
+}
+@font-face {
   font-family: Ageo;
   src: url("../public/fonts/ageo/AgeoPersonalUse.otf") format("opentype");
 }
@@ -42,8 +46,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Ageo" !important;
-  background-image: url("../public/images/bg.svg") !important;
-  color: #1f2d3d !important;
+  background-image: url("../public/images/bg4.svg") !important;
+  color: #c5c5c5 !important;
 }
 
 a {
