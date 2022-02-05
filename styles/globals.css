@@ -1,9 +1,49 @@
+::selection {
+  background: #94e2ff;
+}
+
+@font-face {
+  font-family: Ageo;
+  src: url("../public/fonts/ageo/AgeoPersonalUse.otf") format("opentype");
+}
+@font-face {
+  font-family: Ageo-Bold;
+  src: url("../public/fonts/ageo/AgeoPersonalUse-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: Ageo-ExtraBold;
+  src: url("../public/fonts/ageo/AgeoPersonalUse-ExtraBold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: Ageo-Heavy;
+  src: url("../public/fonts/ageo/AgeoPersonalUse-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: Ageo-Light;
+  src: url("../public/fonts/ageo/AgeoPersonalUse-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: Ageo-Meidum;
+  src: url("../public/fonts/ageo/AgeoPersonalUse-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: Ageo-SemiBold;
+  src: url("../public/fonts/ageo/AgeoPersonalUse-SemiBold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: Ageo-Thin;
+  src: url("../public/fonts/ageo/AgeoPersonalUse-Thin.otf") format("opentype");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Ageo" !important;
+  background-image: url("../public/images/bg.svg") !important;
+  color: #1f2d3d !important;
 }
 
 a {
