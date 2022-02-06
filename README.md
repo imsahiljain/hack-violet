@@ -1,4 +1,4 @@
-# Women care
+# Womenify
 
 ## 💡 Inspiration
 In this world, there are so many websites for fashion, beauty, health care and much more. But, there is no proper website for womens. If we observe 81% of womens are struggling without proper guidance. Guidance includes - sex education, parental education, health care etc. There are so many cases which includes Physical Harrasment, Discriminatory Harassment, Sexual Orientation-Based Harassment, Age-Based Harassment, Psychological Harassment. this is really bad for us that we could not reach to each and every women and asking them whether they need counselling, help or something which will boost their confidence. 
