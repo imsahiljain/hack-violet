@@ -48,7 +48,7 @@ We also use Coil to create micropayments for the user you wish, to support them 
 ## 🧠 Challenges we ran into
 
 ## 🏅 Accomplishments that we're proud of
-- We are very cherrished that we were able to help the womens in all the way we can. 
+- We are very cherrished that we were able to help the womens in all the way we could do in these 24 hours. 
 - There will be reduction of harrasment cases, no expiry medicine will be taken, growth of women in STEM.
 - Able to complete the project within the timeline was really challenging.
 - We are proud that we were able to work together as a team to accomplish this goal together.
