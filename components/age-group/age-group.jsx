@@ -8,7 +8,7 @@ const AgeGroup = () => {
         boxShadow="2xl"
         rounded="md"
         border="1px"
-        borderColor="gray.200"
+        borderColor="gray.700"
         width="450px"
         height="auto"
       >
