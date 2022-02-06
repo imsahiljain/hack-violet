@@ -22,9 +22,10 @@ const AgeGroup = () => {
             fontWeight="semibold"
             fontSize="xl"
             lineHeight="tight"
+            fontFamily="Work Sans"
             isTruncated
           >
-            title
+            2128
           </Box>
           <Box>desc</Box>
           <br />
