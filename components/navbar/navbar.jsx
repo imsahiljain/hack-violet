@@ -10,7 +10,7 @@ const Navbar = () => {
         <Box p="2" m="3">
           <Heading
             className="newsHeading"
-            fontFamily="Ageo-Heavy"
+            fontFamily="Ageo-Bold"
             fontSize="3xl"
             ml="5"
             color="gray.200"
