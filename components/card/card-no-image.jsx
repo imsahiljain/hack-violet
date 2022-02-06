@@ -3,7 +3,7 @@ import { Box, Button } from "@chakra-ui/react";
 const CardNoImage = ({ title, desc }) => {
   return (
     <Box
-      mt="-10"
+      mt="3"
       boxShadow="2xl"
       rounded="md"
       border="1px"
@@ -23,7 +23,7 @@ const CardNoImage = ({ title, desc }) => {
         </Box>
         <Box>{desc}</Box>
         <br />
-        <Button colorScheme="blue">Read more</Button>
+        <Button colorScheme="blue">Select</Button>
       </Box>
     </Box>
   );
