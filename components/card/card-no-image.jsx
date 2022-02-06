@@ -1,6 +1,6 @@
-import { Box, Button, Image } from "@chakra-ui/react";
+import { Box, Button } from "@chakra-ui/react";
 
-const Card = ({ title, desc, image }) => {
+const CardNoImage = ({ title, desc }) => {
   return (
     <Box
       mt="-10"
@@ -11,8 +11,6 @@ const Card = ({ title, desc, image }) => {
       width="auto"
       height="auto"
     >
-      <Image src={image} alt="Image" width="fit-content" />
-
       <Box p="6">
         <Box
           mt="1"
@@ -31,4 +29,4 @@ const Card = ({ title, desc, image }) => {
   );
 };
 
-export default Card;
+export default CardNoImage;

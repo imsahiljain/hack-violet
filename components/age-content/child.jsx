@@ -24,7 +24,7 @@ const Child = () => {
   return (
     <>
       <Button onClick={onOpen} colorScheme="blue">
-        Know more
+        Select
       </Button>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
