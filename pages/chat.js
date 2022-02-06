@@ -3,6 +3,7 @@ import Navbar from "../components/navbar/navbar";
 import Head from "next/head";
 import ChatGroup from "../components/chat-group/chat-group";
 import Title from "../components/title/title";
+import { Center, Text } from "@chakra-ui/react";
 
 const Chat = () => {
   return (
@@ -14,6 +15,19 @@ const Chat = () => {
       </Head>
       <Navbar />
       <Title title="Select your doctor to chat" />
+      <Center>
+        <Text
+          mt="6"
+          fontFamily="Ageo-Medium"
+          color="gray.400"
+          w="30%"
+          textAlign="center"
+          fontSize="lg"
+          mb="-60px"
+        >
+          Get in touch with our doctors and get more info about your health.
+        </Text>
+      </Center>
       <ChatGroup />
     </>
   );

@@ -2,6 +2,8 @@ import Head from "next/head";
 import Navbar from "../components/navbar/navbar";
 import AgeGroup from "../components/age-group/age-group";
 import Title from "../components/title/title";
+import { Center, Heading, Text } from "@chakra-ui/react";
+
 export default function Age() {
   return (
     <>
@@ -12,6 +14,18 @@ export default function Age() {
       </Head>
       <Navbar />
       <Title title="Select your age group" />
+      <Center>
+        <Text
+          mt="6"
+          fontFamily="Ageo-Medium"
+          color="gray.400"
+          w="30%"
+          textAlign="center"
+          fontSize="lg"
+        >
+          Get more important information by selecting your age group.
+        </Text>
+      </Center>
       <AgeGroup />
     </>
   );
