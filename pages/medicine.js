@@ -2,7 +2,6 @@ import { Center, Heading, Text } from "@chakra-ui/react";
 import Navbar from "../components/navbar/navbar";
 import Head from "next/head";
 import Title from "../components/title/title";
-import PregTable from "../components/preg-table/table";
 
 const Chat = () => {
   return (
@@ -25,7 +24,7 @@ const Chat = () => {
         >
           Just two steps to be in safe hands before using any medicine. <br />
           - Take a medicine you would like to get information about. <br />-
-          Scan the product clearly to get best results. That's it, there you go.
+          Scan the product clearly to get best results. Thats it, there you go.
         </Text>
       </Center>
     </>
