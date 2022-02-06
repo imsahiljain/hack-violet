@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/imsahiljain/hack-violet/main/public/images/logo.png?token=GHSAT0AAAAAABNJNWTTZOWN2PO6JQ5Y4UQWYP74HAA" alt="Logo" height="250px">
+    <img src="https://raw.githubusercontent.com/imsahiljain/hack-violet/main/public/images/logo.png?token=GHSAT0AAAAAABNJNWTSSJD7QMX7RV3WBAB2YP75AQQ" alt="Logo" height="250px">
 </div>
 
 
