@@ -22,9 +22,10 @@ const AgeGroup = () => {
             fontWeight="semibold"
             fontSize="xl"
             lineHeight="tight"
+            fontFamily="Work Sans"
             isTruncated
           >
-            Childhood (8-12 years)
+            Childhood (8-12 years){" "}
           </Box>
           {/* <Box>desc</Box> */}
           <br />

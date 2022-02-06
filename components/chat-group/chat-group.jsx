@@ -4,14 +4,7 @@ import CardNoImage from "../card/card-no-image";
 
 const ChatGroup = () => {
   return (
-    <SimpleGrid columns={5} spacing={10} m="150">
-      <CardNoImage title="title" desc="desc" />
-      <CardNoImage title="title" desc="desc" />
-      <CardNoImage title="title" desc="desc" />
-      <CardNoImage title="title" desc="desc" />
-      <CardNoImage title="title" desc="desc" />
-      <CardNoImage title="title" desc="desc" />
-      <CardNoImage title="title" desc="desc" />
+    <SimpleGrid columns={3} spacing={10} m="150">
       <CardNoImage title="title" desc="desc" />
       <CardNoImage title="title" desc="desc" />
       <CardNoImage title="title" desc="desc" />

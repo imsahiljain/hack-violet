@@ -29,9 +29,15 @@ const Adult = () => {
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent color="gray.100">
-          <ModalHeader>Modal Title</ModalHeader>
+          <ModalHeader>Adult</ModalHeader>
           <ModalCloseButton />
-          <ModalBody>sasasasa</ModalBody>
+          <ModalBody>
+            Sexually transmitted diseases can be caused due to unprotected sex.
+            HIV is also an infection that can cause severe health consequences.
+            If someone makes intimate relations with and HIV-positive person,
+            they can get HIV too. Thus, educating people about sexual health is
+            very very important.
+          </ModalBody>
 
           <ModalFooter>
             <Button colorScheme="blue" mr={3} onClick={onClose}>
