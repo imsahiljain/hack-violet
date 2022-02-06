@@ -85,6 +85,21 @@ const Navbar = () => {
               Blog
             </Text>
           </Link>
+
+          <Link href="/chat" passHref>
+            <Text
+              cursor="pointer"
+              // colorScheme="black"
+              // variant="ghost"
+              mt="2"
+              mr="7"
+              fontFamily="Ageo-Medium"
+              fontSize="18px"
+            >
+              Chat
+            </Text>
+          </Link>
+
           <Donate />
         </Box>
       </Flex>
