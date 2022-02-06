@@ -15,7 +15,7 @@ const Navbar = () => {
             ml="5"
             color="gray.200"
           >
-            Heading
+            Womenify
           </Heading>
         </Box>
         <Spacer />

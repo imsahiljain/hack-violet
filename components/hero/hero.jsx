@@ -12,25 +12,29 @@ export default function Hero() {
         <Flex pb="8" flex="1" align="center" justify="center">
           <Stack spacing="6" w="full" maxW="2xl" mb="20" ml="14">
             <Heading
-              fontSize={{ base: "3xl", md: "4xl", lg: "8xl" }}
+              fontSize={{ base: "3xl", md: "6xl" }}
               fontFamily="FUNGIS-Heavy"
               letterSpacing="-3px"
               lineHeight=".9"
               color="gray.200"
             >
-              Some Heading <br />
-              goes here
+              We are <br />
+              always here
+              <br />
+              for you
             </Heading>
             <Text
               fontSize={{ base: "md", lg: "lg" }}
               color="gray.400"
               fontFamily="Ageo-SemiBold"
             >
-              We Never Settle. We are always enhancing the quality of our
-              garments in order to provide you with the greatest look possible
-              at all times and in all places.
+              In this world, there are so many websites for fashion, beauty,
+              health care and much more. But, there is no proper website for
+              womens. Our project will help tons of women to encourage, improve
+              and explore. We believe that every women should be independent in
+              their beautiful life.
             </Text>
-            <Stack direction={{ base: "column", md: "row" }} spacing="4">
+            {/* <Stack direction={{ base: "column", md: "row" }} spacing="4">
               <Button
                 colorScheme="blue.800"
                 variant="outline"
@@ -39,7 +43,7 @@ export default function Hero() {
               >
                 Click here
               </Button>
-            </Stack>
+            </Stack> */}
           </Stack>
         </Flex>
         <Flex>

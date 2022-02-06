@@ -24,9 +24,9 @@ const AgeGroup = () => {
             lineHeight="tight"
             isTruncated
           >
-            title
+            Childhood (8-12 years)
           </Box>
-          <Box>desc</Box>
+          {/* <Box>desc</Box> */}
           <br />
           <Child />
         </Box>
@@ -49,9 +49,9 @@ const AgeGroup = () => {
             lineHeight="tight"
             isTruncated
           >
-            ss
+            Teenage (13-19 years)
           </Box>
-          <Box>ss</Box>
+          {/* <Box>ss</Box> */}
           <br />
           <Teen />
         </Box>
@@ -74,9 +74,9 @@ const AgeGroup = () => {
             lineHeight="tight"
             isTruncated
           >
-            ss
+            Adult (20+ years)
           </Box>
-          <Box>ss</Box>
+          {/* <Box>ss</Box> */}
           <br />
           <Adult />
         </Box>
