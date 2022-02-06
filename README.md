@@ -10,7 +10,7 @@ So, we decided to `implement this idea`. Our project will help tons of women to 
 Whenever a user open our website, these 7 options will be displayed . 
 
 - Home
-- Pregnancy - During this time, womens are in 
+- Pregnancy - 
 - Blog
 - Change language
 - Medicine
