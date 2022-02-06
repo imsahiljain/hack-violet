@@ -1,5 +1,5 @@
 import { Flex, Spacer, Box, Heading, Button, Link } from "@chakra-ui/react";
-
+import Donate from "../donate/donate";
 const Navbar = () => {
   return (
     <>
@@ -73,16 +73,7 @@ const Navbar = () => {
           >
             Blog
           </Link>
-
-          <Button
-            colorScheme="blue"
-            p="5"
-            variant="solid"
-            mr="30"
-            fontSize="18px"
-          >
-            Donate
-          </Button>
+          <Donate />
         </Box>
       </Flex>
     </>
