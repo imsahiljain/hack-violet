@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/imsahiljain/hack-violet/main/public/images/logo.png?token=GHSAT0AAAAAABNJNWTSSJD7QMX7RV3WBAB2YP75AQQ" alt="Logo" height="250px">
+    <img src="https://cdn.discordapp.com/attachments/884660427382988801/939891037571276820/unknown.png" alt="Logo" height="250px">
 </div>
 
 
