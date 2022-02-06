@@ -1,8 +1,13 @@
-# Women Care
+# Women care
 
 ## 💡 Inspiration
+In this world, there are so many websites for fashion, beauty, health care and much more. But, there is no proper website for womens. If we observe 81% of womens are struggling without proper guidance. Guidance includes - sex education, parental education, health care etc. There are so many cases which includes Physical Harrasment, Discriminatory Harassment, Sexual Orientation-Based Harassment, Age-Based Harassment, Psychological Harassment. this is really bad for us that we could not reach to each and every women and asking them whether they need counselling, help or something which will boost their confidence. 
+
+So, we decided to `implement this idea`. Our project will help tons of women to encourage, improve and explore. We believe that every women should be independent in their beautiful life.
 
 ## 💻 What it does
+Whenever a women opens a website, there will be 
+
 
 ## ⚙️ How we built it
 
