@@ -1,9 +1,27 @@
+import React from 'react';
 import { Center, Text } from "@chakra-ui/react";
 import Navbar from "../components/navbar/navbar";
 import Head from "next/head";
 import Title from "../components/title/title";
+import ImageUploading from 'react-images-uploading';
 
 const Chat = () => {
+
+  const [dropdown, setDropDown] = React.useState(false);
+
+  const handleCLick = async () => {
+    setDropDown(!dropdown);
+  };
+
+  const [images, setImages] = React.useState([]);
+  const maxNumber = 1;
+
+  const onChange = (imageList, addUpdateIndex) => {
+    console.log(imageList, addUpdateIndex);
+    setImages(imageList);
+  };
+
+
   return (
     <>
       <Head>
@@ -26,6 +44,66 @@ const Chat = () => {
           - Take a medicine you would like to get information about. <br />-
           Scan the product clearly to get best results. Thats it, there you go.
         </Text>
+
+
+      </Center>
+
+      <Center>
+        <div className="">
+          <ImageUploading
+            multiple
+            value={images}
+            onChange={onChange}
+            maxNumber={maxNumber}
+            dataURLKey="data_url"
+          >
+            {({
+              imageList,
+              onImageUpload,
+              onImageRemoveAll,
+              onImageUpdate,
+              onImageRemove,
+              isDragging,
+              dragProps,
+            }) => (
+              // write your building UI
+              <div className="uploadimage-wrapper">
+                <button
+                  style={isDragging ? { color: 'red' } : undefined}
+                  onClick={onImageUpload}
+                  {...dragProps}
+                >
+                  Click or Drop here
+                </button>
+                &nbsp;
+                <button onClick={onImageRemoveAll}>Remove all images</button>
+                {imageList.map((image, index) => (
+                  <div key={index} className="image-item">
+                    <img src={image['data_url']} alt="" width="100" />
+                    <div className="image-itembtn-wrapper">
+                      <button onClick={() => onImageUpdate(index)}>Update</button>
+                      <button onClick={() => onImageRemove(index)}>Remove</button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </ImageUploading>
+        </div>
+      </Center>
+      <Center>
+
+        <h1 onClick={handleCLick}>
+          Submit
+        </h1>
+        {dropdown && (
+          <div class="list">
+            <ul>
+              <li>Paracetamol 650</li>
+              <li>Prediction: 96.2%</li>
+            </ul>
+          </div>
+        )}
       </Center>
     </>
   );
