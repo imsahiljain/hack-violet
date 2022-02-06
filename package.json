@@ -4,7 +4,8 @@
   "description": "## 💡 Inspiration In this world, there are so many websites for fashion, beauty, health care and much more. But, there is no proper website for womens. If we observe 81% of womens are struggling without proper guidance. Guidance includes - sex education, parental education, health care etc. There are so many cases which includes Physical Harrasment, Discriminatory Harassment, Sexual Orientation-Based Harassment, Age-Based Harassment, Psychological Harassment. this is really bad for us that we could not reach to each and every women and asking them whether they need counselling, help or something which will boost their confidence.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "axios": "^0.25.0",
     "cheerio": "^1.0.0-rc.10",
     "express": "^4.17.2",
+    "morgan": "^1.10.0",
     "request": "^2.88.2",
     "requests": "^0.3.0"
   }
