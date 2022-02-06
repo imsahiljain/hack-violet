@@ -10,13 +10,13 @@ So, we decided to `implement this idea`. Our project will help tons of women to 
 Whenever a user open our website, these 7 options will be displayed . 
 
 - Home - The user can switch to the page where they need help
-- Pregnancy - during this time, womens generally go through different moods depending on their livelihood. So, pregnancy page can help them to take healthy food, tips and much more !
+- Pregnancy - during this time, women generally go through different moods depending on their livelihood. So, pregnancy page can help them to take healthy food, tips and much more !
 
 - Blog - each wOmen has their own story. Some of them don't reveal the struggles they are facing and problems so if people start sharing their blogs or stories the other users will find this helpful. So that the user can also relieve their problems and overcome the issues. 
 
 - Change language - this website will be helpful for any women in this world. So, depending on the countries the languages vary person - to - person. Hence,we have implemented this option.
 
-- Medicine - There will be so many medicines in front of us. And we probably don't remember whether we can use this as pain killer or for something else. So, we thought of implementing this page where it will help the user to get the correct output of the medicine.
+- Medicine - There will be so many medicines in front of us. And we probably don't remember whether we can use this as pain killer or for something else. So, here user can upload / scan image of medicine and get relevant information about the medicine like when this medicine is used, how it is used, etc.
 
 - Chatroom - Sometimes we don't know whom to contact if we face any emergency due to pandemic, the user can utilize the chatrom page. There will the best doctors and the user can be helpful without any stress.
 
@@ -26,14 +26,17 @@ Whenever a user open our website, these 7 options will be displayed .
 
 ## ⚙️ How we built it
 
-- Next Js: Forntend and Backend
+- Next Js: FrontEnd
+- Node Js: Backend
 - Google Cloud Vision API: For finding out the name of the drug
+- Google Cloud App Engine: Backend Deployment
 - Coil: For web monitization
 - Firebase: For chatrooms and database
 - i18n: For multilanguage support
 - Chakra UI: For styling
 
 ## ⛅ Best Use of Cloud Resources
+We are using Google Cloud Vision API for finding out the name of the drug  and Google Cloud AppEngine for hosting our Backend. Vision API offers powerful pre-trained machine learning models through REST and RPC APIs. App Engine is a fully managed serverless application platform with simple administation.
 
 ## 💲 Best Web Monetization Project
 
@@ -41,11 +44,20 @@ We also use Coil to create micropayments for the user you wish, to support them 
 
 ## ⛅ Use of Google Cloud
 
+We are using Google Cloud Vision API for finding out the name of the drug  and Google Cloud AppEngine for hosting our Backend. Vision API offers powerful pre-trained machine learning models through REST and RPC APIs. App Engine is a fully managed serverless application platform with simple administation.
+
 ## 🌐 Best Domain Name from Domain.com
+
+womenify.tech
 
 ## 🍻 Dream Big and Create More Cheers with AB InBev
 
 ## 🧠 Challenges we ran into
+
+- One of the most important things: How to work as a team. How to listen to others' ideas and add your inputs to them. Making some trade-off between the number of features and quality of features.
+- Monetization
+- Learning web-scraping
+- Using Google cloud App Engine
 
 ## 🏅 Accomplishments that we're proud of
 - We are very cherrished that we were able to help the womens in all the way we could do in these 24 hours. 
@@ -64,3 +76,4 @@ We also use Coil to create micropayments for the user you wish, to support them 
 ## 🚀 What's next for Womenify
 
 We are thinking of improving this website more and include features like google cloud maps for the medical store which will help the user to reach without any time delay.
+
