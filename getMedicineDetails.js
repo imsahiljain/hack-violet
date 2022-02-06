@@ -1,6 +1,5 @@
 const axios = require('axios');
-const cheerio = require('cheerio');
-const url = 'https://medlineplus.gov/druginfo/meds/a605007.html';
+const cheerio = require("cheerio");
 
 function getMedicinesDetails(body) {
     const $ = cheerio.load(body);
@@ -13,21 +12,22 @@ function getMedicinesDetails(body) {
     $('.section-body').each((i, el) => {
         para.push(el);
     });
-    const t = title[0];
+    const result = [];
     for(let i = 0; i < title.length; i++) {
         const heading = ($(title[i]).find("h2").text());
         const body = ($(para[i]).text());
-        console.log({
+        result.push({
             heading, body
-        })
+        });
     }
-    console.log(title.length);
-    return "";
+    return result;
 }
-async function main() {
+async function fetchMedicineDetails(url) {
     const result = await axios(url);
     const body = result.data;
-    const how = getHow(body);
+    return getMedicinesDetails(body);
 }
+const url = 'https://medlineplus.gov/druginfo/meds/a605007.html';
 
-main();
+
+module.exports = fetchMedicineDetails;
