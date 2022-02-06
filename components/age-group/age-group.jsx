@@ -24,9 +24,9 @@ const AgeGroup = () => {
             lineHeight="tight"
             isTruncated
           >
-            ss
+            title
           </Box>
-          <Box>ss</Box>
+          <Box>desc</Box>
           <br />
           <Child />
         </Box>
