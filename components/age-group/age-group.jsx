@@ -48,6 +48,7 @@ const AgeGroup = () => {
             fontWeight="semibold"
             fontSize="xl"
             lineHeight="tight"
+            fontFamily="Work Sans"
             isTruncated
           >
             Teenage (13-19 years)
@@ -72,6 +73,7 @@ const AgeGroup = () => {
             mt="1"
             fontWeight="semibold"
             fontSize="xl"
+            fontFamily="Work Sans"
             lineHeight="tight"
             isTruncated
           >

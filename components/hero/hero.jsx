@@ -12,7 +12,7 @@ export default function Hero() {
         <Flex pb="8" flex="1" align="center" justify="center">
           <Stack spacing="6" w="full" maxW="2xl" mb="20" ml="14">
             <Heading
-              fontSize={{ base: "3xl", md: "6xl" }}
+              fontSize={{ base: "3xl", md: "8xl" }}
               fontFamily="FUNGIS-Heavy"
               letterSpacing="-3px"
               lineHeight=".9"
