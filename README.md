@@ -10,18 +10,13 @@ So, we decided to `implement this idea`. Our project will help tons of women to 
 Whenever a user open our website, these 7 options will be displayed . 
 
 - Home
-
-- Pregnancy
-
+- Pregnancy - During this time, womens are in 
 - Blog
-
 - Change language
-
 - Medicine
-
 - Chatroom
-
 - Select Age
+
 
 
 ## ⚙️ How we built it
