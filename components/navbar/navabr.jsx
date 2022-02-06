@@ -1,5 +1,7 @@
-import { Flex, Spacer, Box, Heading, Button, Link } from "@chakra-ui/react";
+import { Flex, Spacer, Box, Heading, Text } from "@chakra-ui/react";
+import Link from "next/link";
 import Donate from "../donate/donate";
+// import styles from "./link.module.css";
 const Navbar = () => {
   return (
     <>
@@ -16,62 +18,72 @@ const Navbar = () => {
           </Heading>
         </Box>
         <Spacer />
-        <Box m="5">
-          <Link
-            to="/"
-            colorScheme="black"
-            variant="ghost"
-            mt="2"
-            mr="7"
-            fontFamily="Ageo-Medium"
-            fontSize="18px"
-          >
-            Home
+        <Box m="5" display="flex">
+          <Link href="/" passHref>
+            <Text
+              cursor="pointer"
+              // colorScheme="black"
+              // variant="ghost"
+              mt="2"
+              mr="7"
+              fontFamily="Ageo-Medium"
+              fontSize="18px"
+            >
+              Home
+            </Text>
           </Link>
-          <Link
-            to="/"
-            colorScheme="black"
-            variant="ghost"
-            mt="2"
-            mr="7"
-            fontFamily="Ageo-Medium"
-            fontSize="18px"
-          >
-            Medicine
+          <Link href="/medicine" passHref>
+            <Text
+              cursor="pointer"
+              // colorScheme="black"
+              // variant="ghost"
+              mt="2"
+              mr="7"
+              fontFamily="Ageo-Medium"
+              fontSize="18px"
+            >
+              Medicine
+            </Text>
           </Link>
-          <Link
-            to="/"
-            colorScheme="black"
-            variant="ghost"
-            mt="2"
-            mr="7"
-            fontFamily="Ageo-Medium"
-            fontSize="18px"
-          >
-            Age
+          <Link href="/age" passHref>
+            <Text
+              cursor="pointer"
+              // colorScheme="black"
+              // variant="ghost"
+              mt="2"
+              mr="7"
+              fontFamily="Ageo-Medium"
+              fontSize="18px"
+            >
+              Age
+            </Text>
           </Link>
-          <Link
-            to="/"
-            colorScheme="black"
-            variant="ghost"
-            mt="2"
-            mr="7"
-            fontFamily="Ageo-Medium"
-            fontSize="18px"
-          >
-            Pregnancy
+          <Link href="/pregnancy" passHref>
+            <Text
+              cursor="pointer"
+              // colorScheme="black"
+              // variant="ghost"
+              mt="2"
+              mr="7"
+              fontFamily="Ageo-Medium"
+              fontSize="18px"
+            >
+              Pregnancy
+            </Text>
           </Link>
 
-          <Link
-            to="/"
-            colorScheme="black"
-            variant="ghost"
-            mt="2"
-            mr="7"
-            fontFamily="Ageo-Medium"
-            fontSize="18px"
-          >
-            Blog
+          <Link href="/blog" passHref>
+            <Text
+              cursor="pointer"
+              // colorScheme="black"
+              // variant="ghost"
+              mt="2"
+              mr="7"
+              fontFamily="Ageo-Medium"
+              fontSize="18px"
+            >
+              Blog
+            </Text>
           </Link>
           <Donate />
         </Box>
