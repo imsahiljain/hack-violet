@@ -6,7 +6,22 @@ In this world, there are so many websites for fashion, beauty, health care and m
 So, we decided to `implement this idea`. Our project will help tons of women to encourage, improve and explore. We believe that every women should be independent in their beautiful life.
 
 ## 💻 What it does
-Whenever a women opens a website, there will be 
+
+Whenever a user open our website, these 7 options will be displayed . 
+
+- Home
+
+- Pregnancy
+
+- Blog
+
+- Change language
+
+- Medicine
+
+- Chatroom
+
+- Select Age
 
 
 ## ⚙️ How we built it
@@ -33,7 +48,8 @@ We also use Coil to create micropayments for the user you wish, to support them 
 ## 🧠 Challenges we ran into
 
 ## 🏅 Accomplishments that we're proud of
-
+- We are very cherrished that we were able to help the womens in all the way we can. 
+- There will be reduction of harrasment cases, no expiry medicine will be taken, growth of women in STEM.
 - Able to complete the project within the timeline was really challenging.
 - We are proud that we were able to work together as a team to accomplish this goal together.
 - We are also proud of the UI we made
@@ -45,4 +61,6 @@ We also use Coil to create micropayments for the user you wish, to support them 
 - How to use Google Cloud
 - Collaborate with people
 
-## 🚀 What's next for Women Care
+## 🚀 What's next for Womenify
+
+We are thinking of improving this website more and include features like google cloud maps for the medical store which will help the user to reach without any time delay.
