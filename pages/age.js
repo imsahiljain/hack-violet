@@ -1,7 +1,7 @@
-import { Heading } from "@chakra-ui/react";
 import Head from "next/head";
-import Navbar from "../components/navbar/navabr";
+import Navbar from "../components/navbar/navbar";
 import AgeGroup from "../components/age-group/age-group";
+import Title from "../components/title/title";
 export default function Age() {
   return (
     <>
@@ -11,17 +11,7 @@ export default function Age() {
         <link rel="icon" href="/icons/favicon.ico" />
       </Head>
       <Navbar />
-      <Heading
-        pt="200px"
-        fontSize={{ base: "3xl", md: "4xl", lg: "7xl" }}
-        fontFamily="Ageo-Heavy"
-        letterSpacing="-3px"
-        lineHeight=".9"
-        color="gray.200"
-        textAlign="center"
-      >
-        Select your age group
-      </Heading>
+      <Title title="Select your age group" />
       <AgeGroup />
     </>
   );

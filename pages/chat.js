@@ -1,8 +1,8 @@
 import { Heading } from "@chakra-ui/react";
-import Navbar from "../components/navbar/navabr";
+import Navbar from "../components/navbar/navbar";
 import Head from "next/head";
 import ChatGroup from "../components/chat-group/chat-group";
-// import Child from "../age-content/child";
+import Title from "../components/title/title";
 
 const Chat = () => {
   return (
@@ -13,17 +13,7 @@ const Chat = () => {
         <link rel="icon" href="/icons/favicon.ico" />
       </Head>
       <Navbar />
-      <Heading
-        pt="200px"
-        fontSize={{ base: "3xl", md: "4xl", lg: "7xl" }}
-        fontFamily="Ageo-Heavy"
-        letterSpacing="-3px"
-        lineHeight=".9"
-        color="gray.200"
-        textAlign="center"
-      >
-        Select your doctor to chat
-      </Heading>
+      <Title title="Select your doctor to chat" />
       <ChatGroup />
     </>
   );
