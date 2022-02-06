@@ -1,5 +1,4 @@
-import { Box, Button, SimpleGrid } from "@chakra-ui/react";
-import Card from "../card/card";
+import { SimpleGrid } from "@chakra-ui/react";
 import CardNoImage from "../card/card-no-image";
 
 const ChatGroup = () => {

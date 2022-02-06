@@ -1,8 +1,7 @@
-import { Box, Button, SimpleGrid } from "@chakra-ui/react";
+import { Box, SimpleGrid } from "@chakra-ui/react";
 import Adult from "../age-content/adult";
 import Child from "../age-content/child";
 import Teen from "../age-content/teen";
-import CardNoImage from "../card/card-no-image";
 
 const AgeGroup = () => {
   return (
@@ -25,9 +24,8 @@ const AgeGroup = () => {
             fontFamily="Work Sans"
             isTruncated
           >
-            Childhood (8-12 years){" "}
+            Childhood (8-12 years)
           </Box>
-          {/* <Box>desc</Box> */}
           <br />
           <Child />
         </Box>
@@ -51,9 +49,8 @@ const AgeGroup = () => {
             fontFamily="Work Sans"
             isTruncated
           >
-            Teenage (13-19 years)
+            Teenage (13-17 years)
           </Box>
-          {/* <Box>ss</Box> */}
           <br />
           <Teen />
         </Box>
@@ -77,9 +74,8 @@ const AgeGroup = () => {
             lineHeight="tight"
             isTruncated
           >
-            Adult (20+ years)
+            Adult (18+ years)
           </Box>
-          {/* <Box>ss</Box> */}
           <br />
           <Adult />
         </Box>

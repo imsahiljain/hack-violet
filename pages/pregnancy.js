@@ -1,4 +1,4 @@
-import { Center, Heading, Text } from "@chakra-ui/react";
+import { Center, Text } from "@chakra-ui/react";
 import Navbar from "../components/navbar/navbar";
 import Head from "next/head";
 import Title from "../components/title/title";

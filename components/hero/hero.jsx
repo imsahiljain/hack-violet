@@ -1,4 +1,4 @@
-import { Button, Flex, Heading, Stack, Text } from "@chakra-ui/react";
+import { Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import Image from "next/image";
 
 export default function Hero() {
@@ -34,16 +34,6 @@ export default function Hero() {
               and explore. We believe that every women should be independent in
               their beautiful life.
             </Text>
-            {/* <Stack direction={{ base: "column", md: "row" }} spacing="4">
-              <Button
-                colorScheme="blue.800"
-                variant="outline"
-                fontFamily="Ageo-SemiBold"
-                fontSize="18px"
-              >
-                Click here
-              </Button>
-            </Stack> */}
           </Stack>
         </Flex>
         <Flex>

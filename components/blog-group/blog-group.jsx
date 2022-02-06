@@ -1,7 +1,5 @@
-import { Box, Button, SimpleGrid, Image } from "@chakra-ui/react";
-import Child from "../age-content/child";
+import { SimpleGrid } from "@chakra-ui/react";
 import Card from "../card/card";
-// import Card from "../card/card-no-image";
 
 const BlogGroup = () => {
   return (

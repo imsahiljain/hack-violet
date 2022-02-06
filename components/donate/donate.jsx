@@ -21,7 +21,7 @@ const Donate = () => {
   const initialRef = React.useRef();
   const finalRef = React.useRef();
   const toast = useToast();
-  const handleOnSubmit = (event) => {
+  const handleOnSubmit = () => {
     onClose();
     toast({
       title: "Donation successfull.",

@@ -8,18 +8,11 @@ import {
   ModalBody,
   ModalCloseButton,
   useDisclosure,
-  FormControl,
-  FormLabel,
-  Input,
   Button,
-  useToast,
 } from "@chakra-ui/react";
 
 const Teen = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
-  const initialRef = React.useRef();
-  const finalRef = React.useRef();
 
   return (
     <>

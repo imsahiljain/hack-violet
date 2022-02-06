@@ -1,5 +1,4 @@
-import { Flex, Spacer, Box, Heading, Text } from "@chakra-ui/react";
-import Link from "next/link";
+import { Flex, Spacer, Box, Heading } from "@chakra-ui/react";
 import Donate from "../donate/donate";
 import NavLink from "./link";
 

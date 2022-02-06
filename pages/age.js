@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/navbar/navbar";
 import AgeGroup from "../components/age-group/age-group";
 import Title from "../components/title/title";
-import { Center, Heading, Text } from "@chakra-ui/react";
+import { Center, Text } from "@chakra-ui/react";
 
 export default function Age() {
   return (

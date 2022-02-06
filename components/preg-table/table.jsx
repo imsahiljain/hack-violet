@@ -1,14 +1,4 @@
-import {
-  Table,
-  Thead,
-  Tbody,
-  Tfoot,
-  Tr,
-  Th,
-  Td,
-  TableCaption,
-  Link,
-} from "@chakra-ui/react";
+import { Table, Thead, Tbody, Tr, Th, Td, Link } from "@chakra-ui/react";
 
 const PregTable = () => {
   return (
